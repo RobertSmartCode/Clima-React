@@ -19,6 +19,7 @@ const { ciudad, pais } = busqueda;
 useEffect(() => {
   const consultarAPI = async () => {
 console.log(ciudad);
+
       if(consultar) {
         const appId = '106ba69713b38158c9372d7d276343ab';
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&APPID=${appId}`;
@@ -26,7 +27,7 @@ console.log(ciudad);
         const resultado = await respuesta.json();
 
         guardarResultado(resultado);
-        //guardarConsultar(false);
+        guardarConsultar(false);
 
         // Detecta si hubo resultados correctos en la consulta
 

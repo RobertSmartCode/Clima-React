@@ -33,6 +33,8 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
         guardarError(false);
 
         guardarConsultar(true);
+        console.log('Se presionó el boton')
+        
     }
 
     return ( 
