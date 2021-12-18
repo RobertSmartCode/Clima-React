@@ -62,16 +62,16 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
                     onChange={handleChange}
                 >
                     <option value="">-- Seleccione un país --</option>
+                    <option value="ES">España</option>
+                    <option value="PE">Perú</option>
                     <option value="VE">Venezuela</option>
                     <option value="AR">Argentina</option>
-                    <option value="BR">Brasil</option>
                     <option value="NZ">Nueva Zelanda</option>
                     <option value="CO">Colombia</option>
                     <option value="US">Estados Unidos</option>
                     <option value="MX">México</option>
                     <option value="CR">Costa Rica</option>
-                    <option value="ES">España</option>
-                    <option value="PE">Perú</option>
+                    
                    
                 </select>
                 <label htmlFor="pais">País: </label>
